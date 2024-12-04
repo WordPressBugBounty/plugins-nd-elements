@@ -2,7 +2,7 @@
 /*
 Plugin Name:       Elements For Elementor
 Description:       The plugin adds some useful Elementor components that can be integrated very easily on your own theme.
-Version:           2.2
+Version:           2.3
 Plugin URI:        https://nicdark.com
 Author:            Nicdark
 Author URI:        https://nicdark.com
@@ -178,6 +178,10 @@ final class Nd_Elements_Elementor_Extension {
     //list
     require_once( __DIR__ . '/widgets/list/index.php' );
     \Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \nd_elements_list_element() );
+
+    //text
+    require_once( __DIR__ . '/widgets/ndtext/index.php' );
+    \Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \nd_elements_ndtext_element() );
 
   }
 

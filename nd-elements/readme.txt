@@ -2,8 +2,8 @@
 Contributors: nicdark
 Tags: elementor, components, shortcodes, framework, post-grid, prices, team, testimonials, services
 Requires at least: 4.5
-Tested up to: 6.5
-Stable tag: 2.2
+Tested up to: 6.7
+Stable tag: 2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,6 +22,9 @@ The plugin adds some useful elements to the Elementor Page Builder Plugin. All c
 4. Enjoy it ;)
 
 == Changelog ==
+
+= 2.3 =
+* added nd text component
 
 = 2.2 =
 * added sanitize_key() on all $nd_elements_layout of all widgets

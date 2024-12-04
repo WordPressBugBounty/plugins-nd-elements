@@ -87,6 +87,7 @@
 
 .nd_elements_color_fff { color: #fff; }
 .nd_elements_color_fff_important { color: #fff !important; }
+.nd_elements_color_000 { color: #000; }
 
 
     
@@ -184,6 +185,8 @@
 .nd_elements_right_40 { right: 40px; }
 
 .nd_elements_z_index_9 { z-index: 9; }
+
+.nd_elements_mix_blend_mode_screen { mix-blend-mode:screen; }
 
 .nd_elements_box_shadow_0_0_15_0_000 { box-shadow: 0px 0px 15px 0px #000; }
 .nd_elements_box_shadow_0_0_15_0_0001 { box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1); }
@@ -379,6 +382,19 @@
 .elementor-widget-woocart { background: transparent !important; } .elementor-widget-woocart i.elementor-widget-empty-icon { display: none !important; }
 .elementor-widget-marquee { background: transparent !important; } .elementor-widget-marquee i.elementor-widget-empty-icon { display: none !important; }
 .elementor-widget-list { background: transparent !important; } .elementor-widget-list i.elementor-widget-empty-icon { display: none !important; }
+
+.elementor-widget-ndtext { background: transparent !important; } .elementor-widget-ndtext i.elementor-widget-empty-icon { display: none !important; }
+
+
+
+/******************************************** START ND Text Component *********************************************/
+.nd_elements_ndtext_component_imagebg {
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+
 
 
 
